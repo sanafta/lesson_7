@@ -1,0 +1,236 @@
+/* &display=swap */
+@import url(https://fonts.googleapis.com/css?family=Neucha:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+/* Домашка - часть №1 */
+/* ================================================================ */
+body {
+	font-family: "Neucha", cursive;
+	font-size: 27px;
+}
+.ann {
+	background: url("../img/brill3.jpg") 0 0 repeat fixed;
+	margin-bottom: 100px;
+}
+.ann-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+		0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.ann .content {
+	padding: 30px 15px;
+	background: linear-gradient(
+			0deg,
+			rgba(0, 255, 196, 0.16056862198004207) 0%,
+			rgba(252, 146, 8, 0.1577675015318627) 100%
+		)
+		800px 0 no-repeat;
+}
+.top-ann {
+	min-height: 540px;
+	background: url("../img/main.jpg") 0 0 / cover no-repeat;
+}
+.title-main {
+	max-width: 450px;
+	padding: 40px 60px;
+	font-family: "Caveat", cursive;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	color: #00cd95;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+.content div {
+	margin-bottom: 30px;
+}
+.ann a {
+	color: #fc6508;
+}
+.ann p {
+	text-align: justify;
+	margin-bottom: 15px;
+}
+.ann .indent {
+	margin-bottom: 0px;
+}
+.ann .title {
+	font-family: "Caveat", cursive;
+	font-size: 45px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #00cd95;
+}
+.ann img {
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+		0 0 40px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+		23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.roots {
+	background: url("../img/Lovepik_com-400197262-lipstick.png") top left -30px / 105px repeat-y;
+}
+.roots p {
+	padding-left: 70px;
+}
+.secret {
+	background: url("../img/bril.png") 0 590px / 10% repeat-x, url("../img/ny.png") bottom left -70px no-repeat,
+		url("../img/lips.png") 50% / 750px repeat-x;
+}
+.secret .brill {
+	padding-top: 150px;
+}
+.ann .secret-img {
+	margin-bottom: 15px;
+}
+.content .arrest {
+	margin-bottom: 0px;
+	background: url("../img/dol.png") top 150px right / 250px no-repeat;
+}
+.content .parallax {
+	height: 1280px;
+	background: rgba(0, 205, 150, 0.493) url("../img/ann6.jpg") center / cover no-repeat fixed;
+	margin: 0px;
+}
+.content .parallax2 {
+	height: 100%;
+	background: url("../img/pngegg.png") 0 0 / 100% 100% no-repeat;
+	margin-bottom: 0;
+}
+.content .parallax3 {
+	height: 1280px;
+	background: rgba(0, 205, 150, 0.493) url("../img/ann6.jpg") center/ cover no-repeat fixed;
+	margin-bottom: 15px;
+}
+/* ================================================================ */
+/* Домашка - часть №2 */
+/* ================================================================ */
+.hr {
+	max-width: 808px;
+	margin: 0 auto;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 100px;
+}
+.hr-title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin-bottom: 26px;
+	color: #1e212c;
+}
+.hr-info {
+	color: #787a80;
+	margin-bottom: 42px;
+}
+.hr-data {
+	display: inline-block;
+	padding-left: 23px;
+	background: url("../img/Calendar.png") left 50% / 16px no-repeat;
+}
+.hr-time {
+	display: inline-block;
+	margin-left: 24px;
+	padding-left: 23px;
+	background: url("../img/Clock.png") left 50% / 16px no-repeat;
+}
+.hr-img {
+	margin-bottom: 62px;
+}
+.hr p {
+	margin-bottom: 24px;
+}
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1e212c;
+}
+.hr .big {
+	margin-bottom: 48px;
+}
+.hr-quote {
+	background: url("../img/braces.png") 0 0 no-repeat;
+	padding-left: 58px;
+}
+.list-hr {
+	margin-bottom: 24px;
+}
+.list-item-hr {
+	background: url("../img/Vector.png") 0 5px no-repeat;
+	margin-bottom: 4px;
+	padding-left: 34px;
+	min-height: 16px;
+}
+.hr .last {
+	margin-bottom: 0px;
+}
+
+.why {
+	max-width: 808px;
+	margin: 0 auto;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+}
+.why-top {
+	margin-bottom: 40px;
+}
+.caption {
+	line-height: 1.5;
+	font-weight: bold;
+	color: #1e212c;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.subtitle {
+	font-size: 46px;
+	line-height: 1.3;
+	font-weight: 900;
+	color: #1e212c;
+}
+.why-list {
+	max-width: 390px;
+	margin-bottom: 22px;
+}
+.why-list-item {
+	background: url("../img/Vector.png") 0 5px no-repeat;
+	margin-bottom: 12px;
+	padding-left: 34px;
+}
+.why-list .center {
+	background: url("../img/Vector.png") left no-repeat;
+	margin-bottom: 12px;
+	padding-left: 34px;
+}
+.why .none {
+	margin-bottom: 0px;
+}
+.btn {
+	display: inline-block;
+	width: 161px;
+	height: 44px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+}
+.link-btn {
+	display: block;
+	font-size: 14px;
+	line-height: 3.14;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: #ffffff;
+}
