@@ -89,7 +89,14 @@ body {
 .secret .brill {
 	padding-top: 150px;
 }
+.ann .brill-img {
+	max-width: 659px;
+}
+.ann .company-img {
+	max-width: 728px;
+}
 .ann .secret-img {
+	max-width: 1000px;
 	margin-bottom: 15px;
 }
 .content .arrest {
@@ -146,6 +153,7 @@ body {
 	background: url("../img/Clock.png") left 50% / 16px no-repeat;
 }
 .hr-img {
+	max-width: 100%;
 	margin-bottom: 62px;
 }
 .hr p {
