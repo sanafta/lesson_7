@@ -226,19 +226,16 @@ body {
 .why .none {
 	margin-bottom: 0px;
 }
-.btn {
-	display: inline-block;
-	width: 161px;
-	height: 44px;
-	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
-	border-radius: 4px;
-}
 .link-btn {
-	display: block;
-	font-size: 14px;
+	display: inline-block;
+	min-width: 161px;
+	padding: 0px 32px;
 	line-height: 3.14;
-	font-weight: 700;
-	letter-spacing: 0.5px;
+	border-radius: 4px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
 	text-align: center;
 	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
 }
